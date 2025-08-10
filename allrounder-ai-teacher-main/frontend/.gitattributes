@@ -1,0 +1,2 @@
+frondend/public/models/classroom_alternative.glb filter=lfs diff=lfs merge=lfs -text
+frontend/public/models/classroom_alternative.glb filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,43 @@
+{
+  "name": "allrounder-ai-teacher-mern",
+  "version": "1.0.0",
+  "description": "MERN Stack All-Rounder AI Teacher - Learn Anything with AI",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run backend:dev\" \"npm run frontend:dev\"",
+    "start": "concurrently \"npm run backend:start\" \"npm run frontend:build\"",
+    "backend:dev": "cd backend && npm run dev",
+    "backend:start": "cd backend && npm start",
+    "backend:install": "cd backend && npm install",
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build",
+    "frontend:preview": "cd frontend && npm run preview",
+    "frontend:install": "cd frontend && npm install",
+    "install:all": "npm run backend:install && npm run frontend:install",
+    "setup": "npm run install:all && echo 'Setup complete! Copy .env.example to .env in both directories and configure your API keys.'"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "ai",
+    "teacher",
+    "education",
+    "learning",
+    "allrounder",
+    "mern",
+    "react",
+    "express",
+    "nodejs",
+    "three.js",
+    "mathematics",
+    "science",
+    "programming"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "your-repository-url"
+  }
+}
